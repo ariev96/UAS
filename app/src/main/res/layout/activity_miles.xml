@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ecedf1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="0.00"
+        android:id="@+id/tvKilometer"
+        android:textStyle="bold"
+        android:textSize="140sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kilometer"
+        android:id="@+id/tvKM"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/timer"
+           android:layout_marginLeft="50dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/heart"
+            android:layout_gravity="center"
+            android:layout_marginLeft="95dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/stopwatch"
+            android:layout_marginLeft="97dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="20sp"
+            android:layout_marginLeft="55dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="20sp"
+            android:layout_marginLeft="110dp"/>
+
+
+        <Chronometer
+            android:textSize="20sp"
+            android:layout_marginLeft="105dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stopwatch"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_play"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/imgbtnStart"
+        android:onClick="actionChrono"
+        android:background="@drawable/circlebutton"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pause"
+        android:id="@+id/btnpause"
+        android:onClick="actpause"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/layout_toolbar" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Email"
+        android:id="@+id/txtemail"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#FFB1B1B1"
+        android:textColor="#FFB1B1B1"
+        android:paddingLeft="20dp"
+        android:background="@drawable/customedittext"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColorHint="#FFB1B1B1"
+        android:textColor="#FFB1B1B1"
+        android:id="@+id/txtpassword"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="20dp"
+        android:hint="Kata Sandi"
+        android:background="@drawable/customedittext"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Daftar"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/btnDaftar"
+        android:textAllCaps="false"
+        android:background="#000000"/>
+
+    <TextView
+        android:text="Anda sudah punya akun? Login disini."
+        android:id="@+id/textViewLogin"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        android:textColor="#FFB1B1B1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

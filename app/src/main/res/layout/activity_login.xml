@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/layout_toolbar" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#FFB1B1B1"
+        android:textColor="#FFB1B1B1"
+        android:paddingLeft="20dp"
+        android:id="@+id/textemail"
+        android:singleLine="true"
+        android:background="@drawable/customedittext"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="20dp"
+        android:textColor="#FFB1B1B1"
+        android:hint="Kata Sandi"
+        android:textColorHint="#FFB1B1B1"
+        android:singleLine="true"
+        android:id="@+id/textkatasandi"
+        android:background="@drawable/customedittext"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFB1B1B1"
+        android:text="Lupa kata sandi?"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="right"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Masuk"
+        android:onClick="actionLogin"
+        android:id="@+id/btnMasuk"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:background="#000000"/>
+
+
+
+</LinearLayout>

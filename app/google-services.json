@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "881147817265",
+    "firebase_url": "https://projectuas-5ace8.firebaseio.com",
+    "project_id": "projectuas-5ace8",
+    "storage_bucket": "projectuas-5ace8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881147817265:android:2780f8f566f11852",
+        "android_client_info": {
+          "package_name": "com.example.ariefbudiman.uas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881147817265-4aoielpfm0vils4s00kg9tdh6g5cbvd5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMd4XBKORs6U3Be9SWmR5d60DnyKiKJLM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
